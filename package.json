@@ -1,0 +1,23 @@
+{
+  "name": "node-tools-cli",
+  "version": "1.0.0",
+  "description": "Simple console app for testing different ideas",
+  "main": "index.js",
+  "scripts": {
+    "download-video": "ts-node download-video/download-video.ts"
+  },
+  "author": "lrydzkowski",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.11.28",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "puppeteer": "^22.5.0",
+    "stdio": "^2.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
